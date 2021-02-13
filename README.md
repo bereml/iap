@@ -3,15 +3,12 @@ Este repositorio contiene las diapositivas, las libretas y códigos de ejemplo d
 
 
 ## Temario
-1. Redes densas
+1. Introducción
+2. Redes neuronales no profundas
 2. Redes convolucionales
 3. Redes recurrentes
 4. Estrategias y trucos de entrenamiento
-5. Mecanismos de atención y memoria externa
-6. Modelos generativos
-7. Redes generativas
-8. Sesgo e imparcialidad
-9. Temas selectos
+5. Temas selectos
 
 
 ## Ambiente de programación
