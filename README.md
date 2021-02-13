@@ -1,52 +1,34 @@
-# Curso de Introducción al Aprendizaje Profundo 2021-II, Licenciatura en Ciencia de Datos
-Este repositorio contiene las diapositivas, las libretas y códigos de ejemplo del curso de [Introducción al Aprendizaje Profundo]() 2021-II.
+# Introducción al Aprendizaje Profundo 2021-II, Licenciatura en Ciencia de Datos CU UNAM
+
+Este repositorio contiene las diapositivas y las libretas del curso de [Introducción al Aprendizaje Profundo](http://turing.iimas.unam.mx/~bereml/course/iap) 2021-II de la [Licenciatura en Ciencia de Datos](https://cienciadatos.iimas.unam.mx) en CU de la [UNAM](https://www.unam.mx).
 
 
 ## Temario
-1. Introducción
-2. Redes neuronales no profundas
+1. Redes densas
 2. Redes convolucionales
-3. Redes recurrentes
-4. Estrategias y trucos de entrenamiento
-5. Temas selectos
+3. Transferencia y estrategias de entrenamiento
+4. Redes recurrentes
+5. Topicos selectos
 
-
+<!--
 ## Ambiente de programación
-
-Para ejecutar los ejercicios y las libretas de este repositorio se tienen dos opciones:
-
-* Google Colab: recomendado para aquellos poco familiarizados programación y el entorno Python en general.
-
-* Ambiente local: para aquellos que deseen crear correr los ejemplos en su equipo.
-
-
-<!-- * Python (>= 3.6)
-* [Tensorflow 2](https://www.tensorflow.org/), que adopta [Keras](https://www.tensorflow.org/versions/r2.0/api_docs/python/tf/keras) como interfaz de alto nivel para construir y entrenar redes neuronales.
-* [Tensorflow Probability](https://www.tensorflow.org/probability/)
-* [Tensorboard](https://www.tensorflow.org/tensorboard/)
-* [Tensorflow Hub](https://www.tensorflow.org/hub/)
-* [scikit-learn 0.21.3](https://scikit-learn.org/)
-* [matplotlib 3.1.1](https://matplotlib.org/)
-* [seaborn 0.9.0](https://seaborn.pydata.org/)
-
-Puedes usar [Google Colab](https://colab.research.google.com) o crear un ambiente local en tu computadora usando [Anaconda](https://www.anaconda.com/). -->
-
 ### Google Colab
 
-[Google Colab](https://colab.research.google.com) es un servicio para crear, editar, alojar y ejecutar libretas en la nube. Ofrece ambientes con CPU, GPU y TPU de forma gratuita, aunque con un tiempo máximo de ejecución.
+[Google Colab](https://colab.research.google.com) es un servicio para crear, editar, alojar y ejecutar libretas en la nube. Para la ejecución, ofrece ambientes con CPU, GPU y TPU de forma gratuita, aunque con un tiempo máximo de ejecución. Para usarlo solo se necesita tener una cuenta de Google activa. -->
 
-Se sugiere trabajar en un ambiente GPU, el cual puedes activar de la siguiente manera:
-* Abre el menú `Entorno de ejecución`
-* Elige la opción `Restablecer todos los entornos de ejecución...` .
-* Vuelve a abrir `Entorno de ejecución`
-* Elige `Cambiar tipo de entorno de ejecución`
-* Selecciona Python 3 como `Tipo de ejecución` y GPU de la lista de `Acelerador por hardware`
+
+<!-- Se sugiere trabajar en un ambiente GPU, el cual puedes activar de la siguiente manera:
+* abre el menú `Entorno de ejecución`,
+* elige la opción `Restablecer todos los entornos de ejecución...` ,
+* vuelve a abrir `Entorno de ejecución`
+* elige `Cambiar tipo de entorno de ejecución`
+* selecciona Python 3 como `Tipo de ejecución` y GPU de la lista de `Acelerador por hardware`.
 
 ![](figs/escoge_acelerador.png)
 
-Puedes crear un nuevo *notebook* desde Colab, subir uno existente desde tu computadora o importarlo de Google Drive o GitHub.
+Puedes crear un nuevo *notebook* desde Colab, subir uno existente desde tu computadora o importarlo de Google Drive o GitHub. -->
 
-### Ambiente local
+<!-- ### Ambiente local
 
 Para instalar el ambiente en nuestra computadora primero debemos instalar Anaconda siguiendo las [instrucciones](https://docs.anaconda.com/anaconda/install/) oficiales. Después, creamos el ambiente con el archivo de dependencias:
 
@@ -77,4 +59,4 @@ Para desactivar el ambiente
 ```
 conda deactivate
 ```
-
+ -->
